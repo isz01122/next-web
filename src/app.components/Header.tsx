@@ -7,6 +7,14 @@ const Header = () => {
   return (
     <StyledWrapper>
       <h1>여기는 헤더 영역!</h1>
+
+      <div className="git-link">
+        <span>깃허브 저장소: </span>
+        <a target="_blank" href="https://github.com/isz01122/next-web">
+          https://github.com/isz01122/next-web
+        </a>
+      </div>
+
       <div className="nav-container">
         <Link href="/">Home</Link>
         <Link href="/props">props 방식</Link>
@@ -25,6 +33,10 @@ const StyledWrapper = styled.nav`
   h1 {
     margin-bottom: 10px;
     font-weight: bold;
+  }
+
+  .git-link {
+    margin-bottom: 10px;
   }
 
   .nav-container {
