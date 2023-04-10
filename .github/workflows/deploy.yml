@@ -31,7 +31,9 @@ jobs:
                   value: production
                 - name: WEB_API_URL
                   value: ${{ secrets.WEB_API_URL }}
-              ports: "4000"
+                - name: PORT
+                  value: "3000"
+              ports: "3000"
               build: npm run build
               install: npm install
               start: npm run start

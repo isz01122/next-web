@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "next start",
-    "dev": "env-cmd -f ./env/.local next dev -p 4000",
+    "dev": "env-cmd -f ./env/.local next dev -p 3000",
     "build": "next build",
     "lint": "next lint"
   },
@@ -21,7 +21,6 @@
     "zustand": "4.3.7"
   },
   "devDependencies": {
-    "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
     "@types/styled-components": "5.1.26",
