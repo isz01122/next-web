@@ -29,6 +29,9 @@ export default Header;
 const StyledWrapper = styled.nav`
   background: #eee;
   padding: 10px 0px;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
 
   h1 {
     margin-bottom: 10px;
